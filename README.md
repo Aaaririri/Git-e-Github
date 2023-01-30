@@ -1,6 +1,7 @@
 # Capacitação Git e Github
 
 ## O que é o Git?
+Git é um sistema de controle de versões. Através do Git, é possível notificar modificações feitas em um projeto para a equipe toda. 
 
 ## Instalando Git
 
