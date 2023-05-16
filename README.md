@@ -8,6 +8,18 @@ O criador do Git é Linus Torvalds, o mesmo criador do Linux.
 ## Instalando Git
 
 ### Windows
+Para a instalação do Git no Windows, é necessário, primeiramente, entrar no site oficial do Git através do link: (https://git-scm.com/).
+
+Siga para a aba de Downloads: (https://git-scm.com/downloads) e selecione a opção "Windows".
+
+Após o Download do arquivo executável, clique duas vezes para iniciar a instalação do Git. 
+Siga as instruções na tela, clicando em "Next" e, ao final, em "Finish" para concluir a instalação.
+
+Abra o prompt de comando e digite os seguintes comandos: 
+git config --global user.name "Seu Nome"
+git config --global user.email "exemplo@seuemail.com.br"
+
+Assim, o Git estará configurado com seu nome e seu endereço de e-mail.
 
 ### Linux
 
