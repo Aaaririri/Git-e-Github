@@ -7,6 +7,16 @@ O criador do Git é Linus Torvalds, o mesmo criador do Linux.
 
 ## O que é o Github?
 
+O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada na web. Ele permite que os desenvolvedores armazenem e gerenciem seus projetos de software usando o sistema de controle de versão Git. O GitHub fornece uma interface intuitiva e recursos poderosos para facilitar o trabalho colaborativo em equipes de desenvolvimento.
+
+Ao usar o GitHub, os desenvolvedores podem criar repositórios para seus projetos, que são como pastas para armazenar e organizar o código-fonte. Esses repositórios podem ser públicos, permitindo que qualquer pessoa veja e contribua com o código, ou privados, acessíveis apenas para colaboradores autorizados.
+
+Uma das principais vantagens do GitHub é a capacidade de rastrear as alterações feitas no código ao longo do tempo. Os desenvolvedores podem criar "commits" para registrar as modificações feitas em seus arquivos e ramos (branches) para trabalhar em diferentes versões do código simultaneamente. Além disso, o GitHub oferece recursos de "pull request", onde os desenvolvedores podem revisar e discutir as alterações antes de mesclá-las ao código principal.
+
+O GitHub também possui recursos de gerenciamento de problemas (issues) que permitem aos desenvolvedores acompanhar e resolver bugs, solicitações de recursos e outras tarefas relacionadas ao projeto. Além disso, a plataforma oferece recursos para integração contínua (CI) e implantação contínua (CD), permitindo a automação de testes e implementações em diferentes ambientes.
+
+O GitHub se tornou uma plataforma amplamente utilizada na comunidade de desenvolvimento de software, com milhões de desenvolvedores e organizações hospedando seus projetos na plataforma. Além disso, o GitHub fornece suporte para colaboração em equipe, facilitando a contribuição de vários desenvolvedores em um mesmo projeto.
+
 ## Configurando Acessos
 
 ### Token
@@ -45,10 +55,17 @@ Para criar um repositório no Github:
 
 ## Comandos Básicos
 
+## Conventional Commits
+
 ## Maneiras de contribuir com o Open Source
 
 ## Referências
 
+- [ChatGPT](https://chat.openai.com)
 - [Getting Started Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Uma breve história do Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git)
 - [Criar um repositório](https://docs.github.com/pt/get-started/quickstart/create-a-repo)
+- [Criando um token de acesso pessoal](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- [Conectar-se ao GitHub com o SSH](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Conventional Commits Pattern](https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657)
