@@ -29,6 +29,7 @@ O GitHub se tornou uma plataforma amplamente utilizada na comunidade de desenvol
 ## Primeiro Respositório
 
 ### Via Github App
+No GitHub desktop, no canto superior esquerdo, clique em "File" e, depois, "New repository".
 
 ### Via Github Web
 
@@ -57,6 +58,76 @@ Para criar um repositório no Github:
 ### Via Terminal
 
 ## Comandos Básicos
+O Git conta com uma série de comandos, alguns mais gerais e outros mais específicos. Segue abaixo uma lista com alguns dos comandos básicos que são utilizados em toda criação e manipulação de projetos Git.
+
+Todo comando Git deve começar com a chave ‘git’ sucedida pelo comando:
+	git <comando> [<parâmetros_do_comando>]
+
+1. git init
+Este comando inicializa um repositório Git.
+Para utilizar este comando, é necessário estar na pasta em que se deseja inicializar um repositório Git. 
+(Mude de diretório através do comando cd NomeDaPasta até acessar a pasta que deseja)
+
+2. git status
+Mostra o estado do repositório, quais arquivos constam nele e se sofreram alteração.
+
+3. git add
+Faz com que o arquivo passe a ser monitorado, "entrega" ele para o servidor.
+Exemplo: git add .
+
+4. git remote add origin <URL_ou_SSH_do_projeto> 
+   ou
+   git remote add nome <caminho/endereço> 
+Adiciona um repositório remoto. O endereço pode ser o "caminho" nas pastas do computador ou a URL ou SSH do projeto.
+
+5. git remote -v 
+Mostra o endereço do repositório.
+
+6. git clone <endereço> nomeDesejado
+Este comando clona um repositório.
+"Clonar" um repositório é trazer dados de um repositório remoto (na nuvem) para um repositório local.
+
+7. git commit -m "Mensagem"
+Utilizado para marcar que houve uma modificação e "subir" essa modificação para o repositório.
+Vem acompanhado de uma mensagem que, geralmente, indica qual modificação foi realizada. É uma boa prática de programação deixar uma mensagem clara e precisa da modificação realizada.
+(Ver a seção de "Conventional Commits").
+
+8. git push
+"Empurrar".
+Envia dados para o servidor, ou seja, publica commits ou branches locais 
+
+9. git pull 
+Pega os dados de um repositório.
+
+10. git branch NomeDaBranch
+Cria uma branch com o nome NomeDaBranch.
+("Branch", em inglês, significa "ramo".) 
+
+11. git branch -d NomeDaBranch
+Deleta a branch NomeDaBranch.
+
+12. git branch
+Lista as branches do ambiente de trabalho.
+
+13. git checkout NomeDaBranch
+Muda para a branch existente NomeDaBranch.
+
+14. git checkout -b NomeDaBranch
+Cria a branch NomeDaBranch e já muda para ela.
+
+15. git fetch
+Carrega no repositório local todos os remotes do repositório na núvem, ou seja, atualiza o repositório local de acordo com a versão mais recente do respositório na núvem.
+
+16. git merge
+git merge <nome_da_branch>
+É utilizado para fundir duas branches, a branch selecionada <nome_da_branch> com a branch atual. 
+
+Podem haver CONFLITOS ao realizar o merge entre duas branches. Se um conflito ocorre, é necessário selecionar qual versão deve ser mantida e qual deve ser descartada. 
+
+# Comandos Git utilizados juntos
+git add . 
+git commit -m "Mensagem"
+
 
 ## Conventional Commits
 
