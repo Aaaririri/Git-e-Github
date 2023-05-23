@@ -5,6 +5,9 @@
 Git é um sistema de controle de versões. O Git é utilizado, principalmente, para o trabalho em equipe. Através do Git, é possível notificar modificações feitas em um projeto para a equipe toda, comparar essas modificações e selecionar versões de um projeto conforme o mesmo é atualizado. Todas as versões e alterações ficam armazenadas. Versões idênticas não são salvas mais de uma vez, o que garante uma organização melhor do projeto. Sendo assim, que é armazenado no Git são os estados de um arquivo.
 O criador do Git é Linus Torvalds, o mesmo criador do Linux.  
 
+## Instalação
+
+
 ## O que é o Github?
 
 O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada na web. Ele permite que os desenvolvedores armazenem e gerenciem seus projetos de software usando o sistema de controle de versão Git. O GitHub fornece uma interface intuitiva e recursos poderosos para facilitar o trabalho colaborativo em equipes de desenvolvimento.
@@ -57,7 +60,28 @@ Para criar um repositório no Github:
 
 ## Conventional Commits
 
+A convenção dos Conventional Commits consiste em seguir um formato específico para a mensagem de commit, que geralmente é composta por três partes principais: tipo, escopo e descrição. A estrutura básica da mensagem de commit é a seguinte:
+
+```
+<tipo>(<escopo>): <descrição>
+```
+
+1. `Tipo`: Indica a natureza da alteração realizada. Pode ser um dos seguintes valores:
+
+    - `feat`: Adição de uma nova funcionalidade.
+    - `fix`: Correção de um bug.
+    - `docs`: Alterações na documentação.
+    - `style`: Alterações na formatação do código, como espaçamento, indentação, etc.
+    - `refactor`: Refatoração do código, sem adição de novas funcionalidades ou correção de bugs.
+    - `test`: Adição ou modificação de testes.
+    - `chore`: Atualizações diversas, como alterações em scripts de build, configurações, etc.
+  
+2. `Escopo` (opcional): Indica a parte específica do projeto que foi modificada. Pode ser uma funcionalidade, um componente, um módulo, etc.
+
+3. `Descrição`: Uma breve descrição da alteração realizada, usando verbos no imperativo. Deve ser clara e objetiva.    
+
 ## Maneiras de contribuir com o Open Source
+[Como Contribuir para o Open Source](https://opensource.guide/pt/how-to-contribute/)
 
 ## Referências
 
