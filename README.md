@@ -63,6 +63,18 @@ Para criar um repositório no Github:
 
 ### Via Terminal
 
+Para criar um novo repositório via linha de comado:
+
+1. Acesse o local onde deseja cria seu repositório, usando o comando `cd CaminhoAteAPasta`;
+
+2. Crie uma nova pasta `mkkdir MeuNovoProjeto`ou para windows `dir MeuNovoProjeto`;
+
+3. Em seguida acesse a pasta `cd MeuNovoProjeto`;
+
+4. Use o comando `git init` para inicializar o repositório;
+
+5. Crie sua `branch` usando `git branch -m main`.
+
 ## Comandos Básicos
 O Git conta com uma série de comandos, alguns mais gerais e outros mais específicos. Segue abaixo uma lista com alguns dos comandos básicos que são utilizados em toda criação e manipulação de projetos Git.
 
@@ -175,3 +187,4 @@ A convenção dos Conventional Commits consiste em seguir um formato específico
 - [Conectar-se ao GitHub com o SSH](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Conventional Commits Pattern](https://medium.com/linkapi-solutions/conventional-commits-pattern-3778d1a1e657)
+- [Iniciando um repositório com Git](https://www.alura.com.br/artigos/iniciando-repositorio-git?gclid=Cj0KCQjwyLGjBhDKARIsAFRNgW_W_cRNL_K8U-sTjyoPAJ1IHTQArT8X-WIvxHEGTUGf4qRUaSklnRcaAj60EALw_wcB)
