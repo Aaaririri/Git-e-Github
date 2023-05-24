@@ -6,6 +6,7 @@ Git é um sistema de controle de versões. O Git é utilizado, principalmente, p
 O criador do Git é Linus Torvalds, o mesmo criador do Linux.  
 
 ## Instalação
+
 [Guia de Instalação Git](https://overjoyed-cabinet-d4d.notion.site/Guia-de-Instala-o-Git-4c60c9a975cc490ea2ae715c9f2bc38f)
 
 ## O que é o Github?
@@ -23,14 +24,17 @@ O GitHub se tornou uma plataforma amplamente utilizada na comunidade de desenvol
 ## Configurando Acessos
 
 ### Token
+
 [Criando um token de acesso pessoal](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ### SSH
+
 [Conectar-se ao GitHub com o SSH](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh)
 
 ## Primeiro Respositório
 
 ### Via Github App
+
 No GitHub desktop, no canto superior esquerdo:
 
 1. Clique em "File";
@@ -76,17 +80,18 @@ Para criar um novo repositório via linha de comado:
 5. Crie sua `branch` usando `git branch -m main`.
 
 ## Comandos Básicos
+
 O Git conta com uma série de comandos, alguns mais gerais e outros mais específicos. Segue abaixo uma lista com alguns dos comandos básicos que são utilizados em toda criação e manipulação de projetos Git.
 
 Todo comando Git deve começar com a chave "git" sucedida pelo comando:
 
 ```
-	git <comando> [<parâmetros_do_comando>]
+ git <comando> [<parâmetros_do_comando>]
 ```
 
 1. `git init`
 Este comando inicializa um repositório Git.
-Para utilizar este comando, é necessário estar na pasta em que se deseja inicializar um repositório Git. 
+Para utilizar este comando, é necessário estar na pasta em que se deseja inicializar um repositório Git.
 (Mude de diretório através do comando cd NomeDaPasta até acessar a pasta que deseja)
 
 2. `git status`
@@ -101,10 +106,10 @@ Exemplo: git add .
    `git remote add nome <caminho/endereço>`
 Adiciona um repositório remoto. O endereço pode ser o "caminho" nas pastas do computador ou a URL ou SSH do projeto.
 
-4.1 git remote rename <oldName> <newName>
+4.1 `git remote rename <oldName> <newName>`
 Renomeia um repositório já existente.
 
-5. git remote -v 
+5. `git remote -v`
 Mostra o endereço do repositório.
 
 6. `git clone <endereço> nomeDesejado`
@@ -118,14 +123,14 @@ Vem acompanhado de uma mensagem que, geralmente, indica qual modificação foi r
 
 8. `git push`
 "Empurrar".
-Envia dados para o servidor, ou seja, publica commits ou branches locais 
+Envia dados para o servidor, ou seja, publica commits ou branches locais
 
-9. `git pull` 
+9. `git pull`
 Pega os dados de um repositório.
 
 10. `git branch NomeDaBranch`
 Cria uma branch com o nome NomeDaBranch.
-("Branch", em inglês, significa "ramo".) 
+("Branch", em inglês, significa "ramo".)
 
 11. `git branch -d NomeDaBranch`
 Deleta a branch NomeDaBranch.
@@ -144,16 +149,16 @@ Carrega no repositório local todos os remotes do repositório na núvem, ou sej
 
 16. `git merge`
 `git merge <nome_da_branch>`
-É utilizado para fundir duas branches, a branch selecionada <nome_da_branch> com a branch atual. 
+É utilizado para fundir duas branches, a branch selecionada <nome_da_branch> com a branch atual.
 
-Podem haver CONFLITOS ao realizar o merge entre duas branches. Se um conflito ocorre, é necessário selecionar qual versão deve ser mantida e qual deve ser descartada. 
+Podem haver CONFLITOS ao realizar o merge entre duas branches. Se um conflito ocorre, é necessário selecionar qual versão deve ser mantida e qual deve ser descartada.
 
 Nesses casos pode ser necessário usar a flag `-f` ou `--force` para forçar o comando de `push`ou `pull` ou mesmo a flag `--rebase` com o comando rebase , você pode pegar todas as alterações que foram confirmadas em um branch e reproduzi-las em outro. O rebase tem recursos poderosos para reescrever o histórico, logo em alguns casos é usado como parte da resolução de conflitos.
 
 # Comandos Git utilizados juntos
-`git add .` 
-`git commit -m "Mensagem"`
 
+`git add .`
+`git commit -m "Mensagem"`
 
 ## Conventional Commits
 
@@ -175,9 +180,10 @@ A convenção dos Conventional Commits consiste em seguir um formato específico
   
 2. `Escopo` (opcional): Indica a parte específica do projeto que foi modificada. Pode ser uma funcionalidade, um componente, um módulo, etc.
 
-3. `Descrição`: Uma breve descrição da alteração realizada, usando verbos no imperativo. Deve ser clara e objetiva.    
+3. `Descrição`: Uma breve descrição da alteração realizada, usando verbos no imperativo. Deve ser clara e objetiva.
 
 ## Maneiras de contribuir com o Open Source
+
 [Como Contribuir para o Open Source](https://opensource.guide/pt/how-to-contribute/)
 
 ## Referências
