@@ -101,14 +101,10 @@ Exemplo: git add .
    `git remote add nome <caminho/endereço>`
 Adiciona um repositório remoto. O endereço pode ser o "caminho" nas pastas do computador ou a URL ou SSH do projeto.
 
-<<<<<<< Updated upstream
-5. `git remote -v` 
-=======
 4.1 git remote rename <oldName> <newName>
 Renomeia um repositório já existente.
 
 5. git remote -v 
->>>>>>> Stashed changes
 Mostra o endereço do repositório.
 
 6. `git clone <endereço> nomeDesejado`
